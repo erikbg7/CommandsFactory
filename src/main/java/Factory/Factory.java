@@ -17,6 +17,7 @@ public class Factory
         commandsMap.put("C1", new FirstCommand());
         commandsMap.put("C2", new SecondCommand());
         commandsMap.put(("C3"), new ThirdCommand());
+
     }
 
     public static Factory getInstance(){
