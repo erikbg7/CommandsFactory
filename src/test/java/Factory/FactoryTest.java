@@ -13,7 +13,7 @@ public class FactoryTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void tryCommands()
     {
         assertTrue( true );
     }
