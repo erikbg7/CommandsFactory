@@ -35,7 +35,7 @@ public class Factory
         return c;
     }
 
-    private Command getCommandByClassLoader(String command) throws Exception {
+    public Command getCommandByClassLoader(String command) throws Exception {
         Command cmd = null;
         Class theClass = null;
 
