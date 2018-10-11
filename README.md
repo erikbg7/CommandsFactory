@@ -5,7 +5,7 @@ The main objective is to understand Factory pattern and develop a little program
 
 
 //////////////////////////////////////////////
--FactoryPattern: Factory + Singleton (cache) + Command + LOG4J
+FactoryPattern: Factory + Singleton (cache) + Command + LOG4J
       Command c = Factory.getInstance().getCommand("C1"); // Classloader (C1)
       c.execute();
 
