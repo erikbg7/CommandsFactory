@@ -1,8 +1,6 @@
 package Factory;
-
 import java.util.HashMap;
 import java.util.Map;
-import org.apache.log4j.Logger;
 
 /**
  * Hello world!
@@ -13,8 +11,6 @@ public class Factory
     private static final String PACKAGE ="Factory.";
     private static Factory instance = null;
     private Map<String, Command> commandsMap= new HashMap<>();
-    private static Logger log = Logger.getLogger(Factory.class);
-
 
     private Factory(){
     }
